@@ -1,0 +1,23 @@
+<h1 class="mat-h4">New User</h1>
+<mat-card class="mat-elevation-z8">
+    <p>
+        <mat-form-field appearance="outline">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Enter your name" [(ngModel)]="user.name">
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="outline">
+            <mat-label>Username</mat-label>
+            <input matInput placeholder="Enter your username" [(ngModel)]="user.username">
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Enter your email" [(ngModel)]="user.email">
+        </mat-form-field>
+
+    </p>
+    <button mat-raised-button color="primary" (click)="createUser()">Add</button>
+</mat-card>

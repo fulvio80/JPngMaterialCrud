@@ -1,0 +1,16 @@
+<h1 class="mat-h4">Login</h1>
+<mat-card class="mat-elevation-z8">
+    <p>
+        <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Enter your name" [(ngModel)]="email">
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input type="password" matInput placeholder="Enter your password" [(ngModel)]="password">
+        </mat-form-field>
+    </p>
+    <button mat-raised-button color="primary" (click)="loginUser()">Login</button>
+</mat-card>

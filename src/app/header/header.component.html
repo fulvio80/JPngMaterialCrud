@@ -1,0 +1,10 @@
+<p>
+  <mat-toolbar color="primary">
+    <span>(ng)Material CRUD</span>
+    <span class="example-spacer"></span>
+    <button mat-button [routerLink]="['/users']" routerLinkActive="router-link-active">Users</button>
+    <button mat-button [routerLink]="['/users/new']" routerLinkActive="router-link-active">New User</button>
+    <button mat-button [routerLink]="['/login']" routerLinkActive="router-link-active">Login</button>
+    <button mat-button (click)="logout()">Logout</button>
+  </mat-toolbar>
+</p>
