@@ -1,5 +1,9 @@
 # JPngMaterialCrud
 
+# About
+
+CRUD developed with Angular 12 and Material Design using the API available at https://jsonplaceholder.typicode.com. The app features a login/logout function with a simulated server, and routes protected by RouteGuard. In the service there are all the call APIs typical of a CRUD: get, delete, post, put.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
 ## Development server
